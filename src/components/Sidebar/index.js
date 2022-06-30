@@ -3,6 +3,8 @@ import { Link, NavLink } from 'react-router-dom'
 import Logo from '../../assets/images/logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHome, faUser } from  '@fortawesome/free-solid-svg-icons'
+import { faLinkedinIn, faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons';
+
 
 const Sidebar = () => (
     <div className='nav-bar'>
@@ -20,6 +22,23 @@ const Sidebar = () => (
             <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
         </NavLink>
        </nav>
+       <ul>
+        <li>
+            <a target="_blank" rel='noreferrer' href='https://www.linkedin.com/in/jonathan-becher-6ba15b5b/'>
+                <FontAwesomeIcon icon={faLinkedinIn} color="#4d4d4e" />
+            </a>
+        </li>
+        <li>
+            <a target="_blank" rel='noreferrer' href='https://github.com/Mkhsx64'>
+                <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+            </a>
+        </li>
+        <li>
+            <a target="_blank" rel='noreferrer' href='https://www.youtube.com/channel/UC7tG6XWvX4eA82pqkjOkJig/featured'>
+                <FontAwesomeIcon icon={faYoutube} color="#4d4d4e" />
+            </a>
+        </li>
+       </ul>
     </div>
 )
 
