@@ -6,11 +6,12 @@ const Home = () => {
     return (
         <div className="container home-page">
             <div className="text-zone">
-                <h1>Hi, I'm
-                <br /><img src={LogoTitle} alt="developer" />
+                <h1>Hi, <br />I'm
+                <img src={LogoTitle} alt="developer" />
                 on
                 <br />
                 developer</h1>
+                <h2>Looking for a front-end/software developer role</h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
         </div>
