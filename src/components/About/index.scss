@@ -35,23 +35,22 @@
     .face1 {
         transform: translateZ(100px);
         color: #F06529;
-      }
-      .face2 {
+    }
+    .face2 {
         transform: rotateY(90deg) translateZ(100px);
-      }
-      .face3 {
+    }
+    .face3 {
         transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
-      }
-      .face4 {
+    }
+    .face4 {
         transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
-      }
-      .face5 {
+    }
+    .face5 {
         transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
-      }
-      .face6 {
+    }
+    .face6 {
         transform: rotateX(-90deg) translateZ(100px);
-      }
-
+    }
   }
   
   @keyframes spincube {
