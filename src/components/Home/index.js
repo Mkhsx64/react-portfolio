@@ -33,7 +33,7 @@ const Home = () => {
                 strArray={jobArray} 
                 idx={17}/>
                 </h1>
-                <h2>Looking for a front-end/software developer role</h2>
+                <h2>Looking for a full stack/software developer role</h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
         </div>

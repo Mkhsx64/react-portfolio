@@ -1,6 +1,8 @@
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faReact, faGitAlt, faNodeJs, faJs, faSass, faPython, faCss3Alt, faHtml5 } from '@fortawesome/free-brands-svg-icons'
 
 const About = () => {
 
@@ -29,6 +31,34 @@ const About = () => {
                 <p>I'm quietly confident, naturally curious, and 
                     perpetually working on improving one problem 
                     at a time.</p>
+            </div>
+            <div className='stage-cube-cont'>
+                <div className='cubespinner'>
+                    <div className='face1'>
+                        <FontAwesomeIcon icon={faReact} color="#FF5733" />
+                    </div>
+                    <div className='face2'>
+                        <FontAwesomeIcon icon={faGitAlt} color="#F06529" />
+                    </div>
+                    <div className='face3'>
+                        <FontAwesomeIcon icon={faJs} color="#FCFA65" />
+                    </div>
+                    <div className='face4'>
+                        <FontAwesomeIcon icon={faNodeJs} color="#097A28 " />
+                    </div>
+                    <div className='face5'>
+                        <FontAwesomeIcon icon={faPython} color="#097A28 " />
+                    </div>
+                    <div className='face6'>
+                        <FontAwesomeIcon icon={faSass} color="#FC78D3" />
+                    </div>
+                    <div className='face7'>
+                        <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+                    </div>
+                    <div className='face8'>
+                        <FontAwesomeIcon icon={faCss3Alt} color="#4BA6F7" />
+                    </div>
+                </div>
             </div>
         </div>
     )
