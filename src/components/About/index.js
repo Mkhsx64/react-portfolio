@@ -34,6 +34,7 @@ const About = () => {
                     perpetually working on improving one problem 
                     at a time.</p>
             </div>
+            <div className='snowflakes'>
             <div className='stage-cube-cont'>
                 <div className='cubespinner'>
                     <div className='face1'>
@@ -55,6 +56,7 @@ const About = () => {
                         <FontAwesomeIcon icon={faSass} color="#FC78D3" />
                     </div>
                 </div>
+            </div>
             </div>
         </div>
         <Loader type='pacman' />
