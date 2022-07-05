@@ -23,6 +23,27 @@ const Contact = () => {
                     idx={15}
                     />
                     </h1>
+                    <div className="contact-form">
+                        <form>
+                            <ul>
+                                <li className="half">
+                                    <input type="text" name="name" placeholder="Name" required />
+                                </li>
+                                <li className="half">
+                                    <input type="email" name="email" placeholder="Email" required />
+                                </li>
+                                <li>
+                                    <input type="text" name="subject" placeholder="Subject" required />
+                                </li>
+                                <li>
+                                    <textarea name="message" placeholder="Message"></textarea>
+                                </li>
+                                <li>
+                                    <input type="submit" className="flat-button" value="SEND" />
+                                </li>
+                            </ul>
+                        </form>
+                    </div>
                 </div>
             </div>
             <Loader type="pacman" />
