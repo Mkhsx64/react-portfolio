@@ -1,2 +1,2 @@
 #Portfolio Website Created with:
-<br>React, JS, HTML, CSS, SASS, EmailJS and npm
+<br>React, JS, HTML, CSS, SASS and npm
